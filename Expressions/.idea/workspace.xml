@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bf704aa4-db26-4a4f-8184-b6e5b42520a7" name="Changes" comment="changes_29_01_2022" />
+    <list default="true" id="c3bf784a-f9bb-4810-b29b-62622274c54f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../EscapeCharacter/EscapeCharacter.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HelloWorld/HelloWorld.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PrintFunctions/PrintFunctions.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StringsInPython/StringsInPython.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StronglyTyped/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StronglyTyped/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StronglyTyped/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StronglyTyped/StronglyTyped.iml" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,7 +26,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="24NvxhTZKe4EIoUSdul8291tQJE" />
+  <component name="ProjectId" id="24O1aHhK7ZuozwNON0OnWVa4DCK" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -27,10 +36,11 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="advanced.settings" />
   </component>
   <component name="RunManager">
-    <configuration name="numericdatatypes" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="NumericDataTypes" />
+    <configuration name="expressions" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Expressions" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -41,7 +51,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/numericdatatypes.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/expressions.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -52,43 +62,19 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.numericdatatypes" />
+        <item itemvalue="Python.expressions" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="bf704aa4-db26-4a4f-8184-b6e5b42520a7" name="Changes" comment="" />
-      <created>1643484107844</created>
+      <changelist id="c3bf784a-f9bb-4810-b29b-62622274c54f" name="Changes" comment="" />
+      <created>1643486882565</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1643484107844</updated>
+      <updated>1643486882565</updated>
     </task>
-    <task id="LOCAL-00001" summary="changes_29_01_2022">
-      <created>1643484220187</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1643484220187</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="changes_29_01_2022" />
-    <option name="LAST_COMMIT_MESSAGE" value="changes_29_01_2022" />
   </component>
 </project>
