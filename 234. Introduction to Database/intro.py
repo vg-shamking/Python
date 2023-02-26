@@ -84,3 +84,21 @@ sqlite>
 # INSERT INTO contacts VALUES('Avril','+61 087654321','steve@hisemail.com');
 # COMMIT;
 # sqlite> .exit
+
+# sqlite> .schema
+# CREATE TABLE songs (_id INTEGER PRIMARY KEY, track INTEGER, title TEXT NOT NULL, album INTEGER);
+# CREATE TABLE albums (_id INTEGER PRIMARY KEY, name TEXT NOT NULL, artist INTEGER);
+# CREATE TABLE artists (_id INTEGER PRIMARY KEY, name TEXT NOT NULL);
+# sqlite>
+
+# sqlite> .headers on
+# sqlite> SELECT * FROM albums WHERE _id = 367;
+# _id|name|artist
+# 367|Permanent Vacation|152
+# sqlite> .backup music-backup1
+# sqlite>
+
+# C:\Users\MGorb\Desktop\Python\STUDY_Python>sqlite3 music.db
+# SQLite version 3.41.0 2023-02-21 18:09:37
+# Enter ".help" for usage hints.
+# sqlite> SELECT songs.track, songs.title, album.name FROM songs JOIN albums ON songs.album = album._id;
