@@ -9,7 +9,6 @@ cursor = db.cursor()
 cursor.execute("SELECT * FROM contacts")
 
 # print(cursor.fetchall())
-
 print(cursor.fetchone())
 print(cursor.fetchone())
 print(cursor.fetchone())
