@@ -2,13 +2,16 @@ import sqlite3
 
 db = sqlite3.connect("contacts.sqlite")
 
-new_email = "anotherupdate@update.com"
-phone = 1234
+new_email = "againanotherupdate@update.com"
+phone = input("Please enter phone number ")
 
 # update_sql = "UPDATE contacts SET email = 'update@update.com'"  # 2 rows updated
-update_sql = "UPDATE contacts SET email = '{}' WHERE contacts.phone = {}".format(new_email, phone)  # 0 rows updated
+# update_sql = "UPDATE contacts SET email = '{}' WHERE contacts.phone = {}".format(new_email, phone)  # 0 rows updated
+update_sql = "UPDATE contacts SET email = ? WHERE contacts.phone = ?"
+print(update_sql)
+
 update_cursor = db.cursor()
-update_cursor.execute(update_sql)
+update_cursor.execute(update_sql, (new_email, phone))
 print("{} rows updated".format(update_cursor.rowcount))
 
 print()
