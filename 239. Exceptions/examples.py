@@ -9,7 +9,7 @@ def factorial(n):
 
 try:
     print(factorial(900))
-except RecursionError:
-    print("This program calculate factorials that large")
+except (RecursionError, ZeroDivisionError, OverflowError):
+    print("WARNING: This program cannot calculate factorials that large")
 
 print("Program terminating")
