@@ -9,6 +9,9 @@ db.execute("CREATE TABLE IF NOT EXISTS transactions (time TIMESTAMP NOT NULL, ac
            "amount INTEGER NOT NULL, PRIMARY KEY (time, account))")
 db.execute("CREATE TABLE IF NOT EXISTS history (time TIMESTAMP NOT NULL, "
            "account TEXT NOT NULL, amount INTEGER NOT NULL, PRIMARY KEY (time, account))")
+db.execute("SELECT strftime('%Y-%m-%d %H:%M:%f', "
+                      "history.time, 'localtime') AS localtime, "
+                      "history.account, history.amount FROM history ORDER BY history.time")
 
 
 class Account(object):
