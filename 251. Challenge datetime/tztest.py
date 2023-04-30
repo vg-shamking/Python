@@ -26,7 +26,7 @@ class Account(object):
         # return pytz.utc.localize(datetime.datetime.utcnow())
         # local_time = pytz.utc.localize(datetime.datetime.utcnow())
         # return local_time.astimezone()
-        
+
         utc_time = pytz.utc.localize(datetime.datetime.utcnow())
         local_time = utc_time.astimezone()
         zone = local_time.tzinfo
@@ -48,9 +48,10 @@ class Account(object):
 
     def _save_update(self, amount):
         new_balance = self._balance + amount
-        deposit_time = Account._current_time()
+        deposit_time, zone = Account._current_time()  # <--- unpack the returned tuple
+        picked_zone = pickle.dumps(zone)
         db.execute("UPDATE accounts SET balance = ? WHERE (name = ?)", (new_balance, self.name))
-        db.execute("INSERT INTO history VALUES(?, ?, ?)", (deposit_time, self.name, amount))
+        db.execute("INSERT INTO history VALUES(?, ?, ?, ?)", (deposit_time, self.name, amount, picked_zone))
         db.commit()
         self._balance = new_balance
 
