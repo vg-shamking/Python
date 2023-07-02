@@ -1,1 +1,1 @@
-# Python Programming Basic Knowledgе
+# Python Programming Basiс
