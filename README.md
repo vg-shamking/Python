@@ -6,7 +6,6 @@
 	> Gaming modules;
  
 	> Practical approach;
- 
 	> Daily training;
         > PyCharm;
 	> Common life challenges;
