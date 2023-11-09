@@ -9,3 +9,4 @@
         > PyCharm;
 	> Common life challenges;
         > Continuous improvement.
+	
