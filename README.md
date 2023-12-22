@@ -7,3 +7,18 @@
         > PyCharm;
 	> Common life challenges;
         > Continuous learning.	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
