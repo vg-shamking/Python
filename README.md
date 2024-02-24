@@ -6,4 +6,4 @@
 	> Daily training;
         > PyCharm;
 	> Common life challenges;
-        > Continuous learning.	
+        > Continuous learning.
